@@ -1,0 +1,20 @@
+Smart-Energy-Consumption-Forecasting-System/
+├─ backend/
+│  ├─ app.py                     # Flask API for forecasts and anomalies
+│  ├─ lstm_model.py              # LSTM model for time-series forecasting
+│  ├─ requirements.txt           # Python dependencies
+│  └─ data/
+│      ├─ sample_energy.csv      # Hourly meter energy readings
+│      └─ anomalies.csv          # Detected anomalies sample
+├─ frontend/
+│  ├─ public/
+│  │   └─ index.html             # React entry point
+│  ├─ src/
+│  │   ├─ App.jsx                # Main React component
+│  │   ├─ ForecastDashboard.jsx  # Forecast panel component
+│  │   ├─ AnomalyPanel.jsx       # Anomaly panel component
+│  │   ├─ index.js               # ReactDOM render file
+│  │   └─ styles.css             # Global CSS + Tailwind
+│  └─ package.json               # Frontend dependencies & scripts
+├─ README.md                     # Project overview and instructions
+└─ .gitignore                    # Git ignore file
