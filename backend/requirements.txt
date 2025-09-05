@@ -1,0 +1,26 @@
+# Web framework
+Flask==2.3.4
+Flask-Cors==3.1.1
+
+# Data processing
+pandas==2.1.1
+numpy==1.27.5
+
+# Machine learning
+tensorflow==2.14.0
+scikit-learn==1.3.2
+
+# For plotting or optional visualization
+matplotlib==3.8.1
+seaborn==0.12.3
+
+# Misc
+python-dotenv==1.0.1
+
+#Notes:
+
+- Flask + Flask-Cors → serve API endpoints and allow frontend requests.
+- pandas + numpy → for CSV handling and data prep.
+- tensorflow → for LSTM model.
+- scikit-learn → optional for preprocessing or anomaly detection.
+- python-dotenv → optional, to manage config variables like PORT.
