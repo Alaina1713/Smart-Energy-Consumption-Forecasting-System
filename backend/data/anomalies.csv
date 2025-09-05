@@ -1,0 +1,6 @@
+timestamp,meter,value,type,index
+2025-09-01 09:00,meter_001,7.0,spike,9
+2025-09-01 18:00,meter_003,7.6,spike,18
+2025-09-02 08:00,meter_002,5.9,spike,32
+2025-09-02 19:00,meter_001,7.3,spike,43
+2025-09-02 20:00,meter_003,7.5,spike,44
